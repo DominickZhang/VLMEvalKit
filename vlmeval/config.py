@@ -483,6 +483,8 @@ api_models = {
         temperature=0,
         retry=10,
     ),
+    ## hunyuan api
+    "HunYuanAPI": partial(HunYuanAPI, model='hunyuan_api', temperature=0, retry=10),
 }
 
 emu_series = {
